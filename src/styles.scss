@@ -1,3 +1,5 @@
+@import 'variables';
+
 #rentalListing {
     .title {
       font-size: 30px;
@@ -7,6 +9,13 @@
   
   
     /* SINGLE CARD STYLES*/
+    a {
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+    }
+
+
     .bwm-card {
       border: none;
   
@@ -29,6 +38,7 @@
         .card-title {
           font-size: 19px;
           margin: 3px 0;
+          color: $main-text-color;
         }
   
   
